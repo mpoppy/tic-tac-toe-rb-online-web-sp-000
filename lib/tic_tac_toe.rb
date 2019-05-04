@@ -110,7 +110,7 @@ end
 def play(board)
   turn_count = turn_count(board)
   while turn_count < 9 && over?(board) == false
-    turn(board) #run a turn as long as less than nine
+    turn(board) 
     turn_count += 1
   end
 end
