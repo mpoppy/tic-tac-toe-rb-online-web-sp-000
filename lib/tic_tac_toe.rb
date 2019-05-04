@@ -107,7 +107,7 @@ def winner(board)
   end
 end
 
-#need to identify each position, x or o
+#n
 def play(board)
   turn_count = turn_count(board) #returns the number of turns
   while turn_count < 9 && over?(board) == false && draw?(board) == false
