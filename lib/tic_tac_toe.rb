@@ -114,7 +114,7 @@ def play(board)
     turn(board)
     turn_count += 1
   end
-  if draw?(board) = true
+  if draw?(board) == true
     puts "Cat's Game!"
   else
     puts "Congratulations #{winner(board)}!"
