@@ -113,9 +113,7 @@ def play(board)
     turn(board)
     turn_count += 1
     over = over?(board)
-      if over == true
-        "game is over"
-      exit 
-    end
+      break if over == true
+      end
   end
 end
