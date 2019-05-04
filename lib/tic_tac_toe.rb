@@ -109,10 +109,8 @@ end
 #need to identify each position, x or o
 def play(board)
   turn_count = turn_count(board)
-  while turn_count < 9
-    turn(board)
+  while turn_count < 9 && over?(board) == false
+    turn(board) #run a turn as long as less than nine
     turn_count += 1
-    over = over?(board)
-    if over == false
   end
 end
