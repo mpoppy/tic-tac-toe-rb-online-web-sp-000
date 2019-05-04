@@ -114,5 +114,5 @@ def play(board)
     turn(board)
     turn_count += 1
   end
-  puts "Congratulations #{winner(board)}""
+  puts "Congratulations #{winner(board)}"
 end
