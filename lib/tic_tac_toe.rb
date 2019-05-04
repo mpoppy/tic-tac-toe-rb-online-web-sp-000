@@ -112,8 +112,7 @@ def play(board)
   while turn_count < 9
     turn(board)
     turn_count += 1
-    if over?(board)
-      "Game is over"
+    
     end
   end
 end
