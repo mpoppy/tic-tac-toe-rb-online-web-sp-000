@@ -114,5 +114,6 @@ def play(board)
     turn_count += 1
     if over?(board)
       "Game is over"
+    end
   end
 end
