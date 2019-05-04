@@ -107,7 +107,9 @@ def winner(board)
 end
 
 def play(board)
-  while turn_count(board) < 9
+  index = turn_count(board)
+  while index < 9
     turn(board)
+    index += 1
   end
 end
