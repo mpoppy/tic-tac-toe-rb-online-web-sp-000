@@ -110,7 +110,7 @@ end
 def play(board)
   turn_count = turn_count(board) #returns the number of turns
   while turn_count < 9 && over?(board) == false
-    turn(board) 
+    turn(board)
     turn_count += 1
   end
 end
