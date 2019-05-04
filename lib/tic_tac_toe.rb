@@ -114,6 +114,5 @@ def play(board)
     turn_count += 1
     over = over?(board)
     break if over == true
-    end
   end
 end
